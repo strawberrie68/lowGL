@@ -1,0 +1,17 @@
+section{
+    width: 100%;
+    text-align: center;
+    padding-top: 6em;
+}
+
+/* .cards {
+    width:30px;
+    height: 500px;
+    display: flex;
+    border: 10px solid black;
+    
+} */
+
+* {
+   list-style: none;
+}
