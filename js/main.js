@@ -43,7 +43,7 @@ document.querySelector('#healthyRdm').addEventListener('click', gethealthy)
 
 function gethealthy(){
     
-    const url = 'https://api.spoonacular.com/recipes/findByNutrients?minCarbs=10&maxCarbs=20&number=5&random=true&limitLicense=true&apiKey=8bab429b57294503b90c8cd5abd6f915'
+    const url = 'https://api.spoonacular.com/recipes/findByNutrients?minCarbs=0&maxCarbs=15&number=5&random=true&limitLicense=true&apiKey=8bab429b57294503b90c8cd5abd6f915'
     fetch(url)
         .then(res => res.json())
         .then(data => {

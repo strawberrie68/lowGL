@@ -30,11 +30,12 @@ ul {
 
 ul li {
     width:20%;
+
     padding: 20px;
     border: 1px rgba(139, 134, 134, 0.26) solid;
     margin: 5px;
     border-radius: 10px;
-
+    max-width: 150px;
     
 }
 
