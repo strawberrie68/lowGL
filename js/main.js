@@ -51,15 +51,15 @@ function gethealthy(){
             for( let n in data){
                 const li = document.createElement('li')
                 const img = document.createElement('img')
-                const h2 = document.createElement('h2')
+                const h4 = document.createElement('h4')
                 const para = document.createElement('p')
                 const para2 = document.createElement('p')
-                h2.innerText = data[n]['title']
+                h4.innerText = data[n]['title']
                 img.src = data[n]['image']
                 para.innerText = data[n]['carbs']
                 para2.innerText = data[n]['calories']
                 li.appendChild(img)
-                li.appendChild(h2)
+                li.appendChild(h4)
                 li.appendChild(para)
                 li.appendChild(para2)
                 document.querySelector('#recipeCards').appendChild(li) 
